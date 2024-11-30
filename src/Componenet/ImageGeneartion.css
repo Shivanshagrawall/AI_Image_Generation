@@ -106,7 +106,26 @@
     outline: none;
     color: #fff;
 }
+.reset_and_download_button{
+    width:100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.reset_and_download_button button{
+    width: 28%;
+    height: 2.5rem;
+    background-color: #de1b89;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+}
 @media screen and (max-width:400px) {
     .container{
         width: 100%;
@@ -123,5 +142,8 @@
     }
     .search_box button{
         width: 40%;
+    }
+    .reset_and_download_button button{
+        width: 35%;
     }
 }
